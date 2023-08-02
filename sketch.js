@@ -170,6 +170,7 @@ function reset(){
   cloudsGroup.destroyEach();
   obstaclesGroup.destroyEach();
 
+  trex.changeAnimation("running",trex_running);
 }
 
 
